@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "admin", "admin", "{588205D4-3A30-4DA4-849D-C7422C396DAA}"
 EndProject
@@ -62,6 +62,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skoruba.Duende.IdentityServer.Admin.UI.Api", "src\Skoruba.Duende.IdentityServer.Admin.UI.Api\Skoruba.Duende.IdentityServer.Admin.UI.Api.csproj", "{09C6ED82-ED20-464D-97AC-48A47E18804E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApi", "src\MyApi\MyApi.csproj", "{17BC8CDE-E5B2-408F-BDDA-E1305AB9E7B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApiGateway", "MyApiGateway\MyApiGateway.csproj", "{CA1B1ADE-91CF-06A7-576D-E3506F2339CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -169,6 +171,10 @@ Global
 		{17BC8CDE-E5B2-408F-BDDA-E1305AB9E7B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17BC8CDE-E5B2-408F-BDDA-E1305AB9E7B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17BC8CDE-E5B2-408F-BDDA-E1305AB9E7B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA1B1ADE-91CF-06A7-576D-E3506F2339CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA1B1ADE-91CF-06A7-576D-E3506F2339CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA1B1ADE-91CF-06A7-576D-E3506F2339CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA1B1ADE-91CF-06A7-576D-E3506F2339CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,36 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "Key": "MyApi",
+      "Config": [
+        {
+          "Name": "MyApi",
+          "Version": "v1",
+          "Url": "https://localhost:7111/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ],
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7111
+        }
+      ],
+      "UpstreamPathTemplate": "/myapi/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": [ "myapi.read" ]
+      },
+      "SwaggerKey": "MyApi"
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:6001"
+  }
+}

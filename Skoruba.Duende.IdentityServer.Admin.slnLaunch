@@ -1,0 +1,27 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "src\\Skoruba.Duende.IdentityServer.STS.Identity\\Skoruba.Duende.IdentityServer.STS.Identity.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "src\\Skoruba.Duende.IdentityServer.Admin\\Skoruba.Duende.IdentityServer.Admin.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "src\\MyApi\\MyApi.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "MyApiGateway\\MyApiGateway.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      }
+    ]
+  }
+]
