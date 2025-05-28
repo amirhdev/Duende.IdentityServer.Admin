@@ -1,12 +1,13 @@
-﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
+﻿using Microsoft.IdentityModel.Tokens;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // خواندن تنظیمات Ocelot
-builder.Configuration.AddJsonFile("ocelot.json", optional: false, reloadOnChange: true);
+builder.Configuration
+    .AddJsonFile("ocelot.MyApi.json", optional: false, reloadOnChange: true)
+    .AddJsonFile("ocelot.json", optional: false, reloadOnChange: true);
 /*builder.Services.AddSwaggerGen();*/
 
 // احراز هویت JWT مطابق با MyApi
