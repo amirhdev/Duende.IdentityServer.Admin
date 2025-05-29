@@ -18,7 +18,7 @@
         "DebugTarget": "https"
       },
       {
-        "Path": "MyApiGateway\\MyApiGateway.csproj",
+        "Path": "src\\MyApiGateway\\MyApiGateway.csproj",
         "Action": "Start",
         "DebugTarget": "https"
       }
