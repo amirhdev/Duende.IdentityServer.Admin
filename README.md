@@ -1,4 +1,3 @@
-![Logo](docs/Images/Skoruba.Duende.IdentityServer.Admin-Logo-ReadMe.png)
 
 🛡️ IdentityServer + Ocelot API Gateway + Sample Api (PKCE | .NET 9)
 
