@@ -1,6 +1,6 @@
 ![Logo](docs/Images/Skoruba.Duende.IdentityServer.Admin-Logo-ReadMe.png)
 
-🛡️ IdentityServer + Ocelot API Gateway + Microservice (PKCE | .NET 9)
+🛡️ IdentityServer + Ocelot API Gateway + Sample Api (PKCE | .NET 9)
 
 This project is a customized microservices setup built on top of the Skoruba Duende IdentityServer Admin, extended to support:
 
